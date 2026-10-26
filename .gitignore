@@ -1,0 +1,10 @@
+# MATLAB / Octave
+*.asv
+*.m~
+*.mex*
+slprj/
+*.slxc
+octave-workspace
+# OS
+.DS_Store
+Thumbs.db
