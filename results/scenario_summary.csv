@@ -1,0 +1,8 @@
+scenario,p1_unpowered_s,generators_paralleled,max_sources_per_island,soc_min,soc_end,battery_depleted,battery_only_min,apu_online_s,hv_min_V,hv_max_V,lv_min_V,lv_max_V,steady_state_ok,energy_not_served_kWh,loads_shed
+S0_nominal,0.00,0,1,0.900,0.900,0,0.0,NaN,266.0,269.8,27.85,27.88,1,0.00,
+S1_gen1_fail_apu_ok,0.00,0,1,0.900,0.900,0,0.0,2445.00,264.1,269.8,27.85,27.91,1,0.27,AESA radar; Mission SATCOM; EO/IR turret; Ice protection; Bay heaters & utility; Payload bay (non-essential); Lighting
+S2_gen1_fail_apu_fails,0.00,0,1,0.900,0.900,0,0.0,NaN,264.1,269.8,27.85,27.91,1,7.19,AESA radar; Mission SATCOM; EO/IR turret; Ice protection; Bay heaters & utility; Payload bay (non-essential); Lighting
+S3_dual_gen_fail_apu_ok,0.00,0,1,0.893,0.900,0,0.7,2445.00,264.1,269.8,27.85,27.91,1,16.10,AESA radar; ECS / liquid cooling; Mission SATCOM; EO/IR turret; Ice protection; Bay heaters & utility; Payload bay (non-essential); Lighting
+S4_dual_gen_fail_battery_only,0.00,0,1,0.413,0.413,0,30.0,NaN,266.0,269.8,27.85,27.91,1,16.01,AESA radar; ECS / liquid cooling; Mission SATCOM; EO/IR turret; Ice protection; Bay heaters & utility; Payload bay (non-essential); Lighting
+S5_dcdc_fault,0.00,0,1,0.900,0.900,0,0.0,NaN,266.0,269.8,27.71,27.88,1,0.00,
+S6_gen2_fail_takeoff,0.00,0,1,0.900,0.900,0,0.0,465.00,265.5,269.8,27.85,27.88,1,0.00,

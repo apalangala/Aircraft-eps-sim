@@ -1,0 +1,18 @@
+Test report
+===========
+
+[PASS] test_bus_logic_truth_table                  0.1 s  
+[PASS] test_battery_model                          0.0 s  
+[PASS] test_no_paralleling_in_sim                  1.7 s  
+[PASS] test_p1_loads_never_unpowered               0.0 s  
+[PASS] test_energy_balance                         0.0 s  
+[PASS] test_shedding_order_and_hysteresis          0.0 s  
+[PASS] test_apu_sequencing                         0.0 s  
+[PASS] test_mil704_steady_state                    0.0 s  
+[PASS] test_battery_endurance_requirement          0.0 s  
+[PASS] test_transient_envelope                     0.4 s  
+[PASS] test_stability                              0.3 s  
+[PASS] test_radar_headroom                         0.0 s  
+[PASS] test_reliability                            0.2 s  
+
+13 of 13 tests passed
