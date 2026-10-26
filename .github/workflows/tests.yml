@@ -1,0 +1,17 @@
+name: tests
+
+# Runs the test suite in GNU Octave on every push, so the repo shows a
+# passing badge without anyone needing a MATLAB licence.
+on: [push, pull_request]
+
+jobs:
+  octave:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Octave
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends octave gnuplot-nox xvfb fonts-dejavu-core fonts-freefont-otf ghostscript
+      - name: Run tests
+        run: xvfb-run -a octave --no-gui --eval "addpath(pwd); setup_paths(); run_all_tests();"
